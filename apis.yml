@@ -1,8 +1,25 @@
 aid: okcredit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/okcredit.png
 name: Okcredit
-description: Okcredit is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  OkCredit is a mobile digital ledger (bahi khata) application for small business
+  owners and merchants across India, letting shopkeepers record credit and payment
+  transactions digitally, send automated collection reminders over SMS and WhatsApp,
+  and share account statements with customers. The consumer-facing Android and iOS
+  apps replace the traditional paper udhaar ledger; the company does not currently
+  publish a public developer API, SDK, or developer portal. Added to the API
+  Evangelist network as a portfolio company of Lightspeed Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/okcredit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Bookkeeping
+- Digital Ledger
+- Small Business
+- India
+- Payments
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/okcredit-domain-security.yml
+- type: Website
+  url: https://okcredit.in
 apis: []
 maintainers:
 - FN: Kin Lane
